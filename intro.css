@@ -4,6 +4,39 @@ body {background-color:aliceblue;
 h1 {background-color: aqua;
     border-style:double;}
 
+#preloader6{
+    position: relative;
+    width: 42px;
+    height: 42px;
+    animation: preloader_6 5s infinite linear;}
+
+#preloader6 span{
+    width: 20px;
+    height: 42px;
+    position: relative;
+    background: red;
+    display: block;
+    animation: preloader_6_span la infinite linear;}
+
+#preloader6 span:nth-child(1){
+    background: #222ecc71;}
+
+#preloader6 span:nth-child(2){
+    left: 22px;
+    background: #9b59b6;
+        animation-delay: .2s;}
+
+#preloader6 span:nth-child(3){
+    top: 22px;
+    background: #3498db;
+        animation-delay: .4s;}
+
+@keyframes prelaoder_6_span {
+    0% {transform:scale(1);}
+    50% {transform: scale(0.5);}
+    100% {transform: scale(1);}
+}
+
 #navigation li {list-style: none;
             display: block;
             float: left;
