@@ -1,7 +1,8 @@
 body {background-color:aliceblue;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', sans-serif;}
 
-h1 {background-color: aqua;}
+h1 {background-color: aqua;
+    border-style:double;}
 
 
 
