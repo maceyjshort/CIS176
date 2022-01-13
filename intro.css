@@ -1,8 +1,23 @@
 body {background-color:aliceblue;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', sans-serif;}
 
-h1 {background-color: aqua;
-    color:aliceblue;}
+h1 {background-color: aqua;}
 
-nav {font-weight: bold;
-    background-color: blue;}
+
+
+nav a {text-decoration: none;}
+nav a:link {color:blueviolet;}
+nav a:visited {color:rgb(105, 114, 165);}
+nav a:hover {color:darkgreen;}
+
+#centerDec {position: absolute;
+            padding: 0 0 200px 0;
+            margin-top: 300px;
+            margin-left: 100px;
+            margin-right: 234px;}
+
+#wrapper {width: 80%;
+        margin-right: auto;
+        margin-left:auto;
+        min-width: 900px;
+        max-width: 1280px;}
