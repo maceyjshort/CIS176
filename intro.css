@@ -4,14 +4,6 @@ body {background-color:aliceblue;
 h1 {background-color: aqua;
     border-style:double;}
 
-
-
-nav a {text-decoration: none;}
-nav a:link {color:blueviolet;}
-nav a:visited {color:rgb(105, 114, 165);}
-nav a:hover {color:darkgreen;
-            margin-top: 2px;}
-
 #navigation li {list-style: none;
             display: block;
             float: left;
@@ -23,10 +15,20 @@ nav a:hover {color:darkgreen;
             font-size: 1.6em;
             margin: 0 .5em;}
 
+nav a {text-decoration: none;}
+nav a:link {color:blueviolet;}
+nav a:visited {color:rgb(105, 114, 165);}
+nav a:hover {color:darkgreen;
+            margin-top: 2px;}
+
 #navigation_container {margin: 0 auto;
             width: 960px;}
 
-.rectangle {background: #35592e;
+#navigation li a:hover {
+    margin-top: 2px;
+}
+
+.rectangle {background: #d9542b;
             height: 62px;
             position: relative;
             -moz-box-shadow: 0px 0px 4px rgba(0,0,0,.55);
@@ -38,10 +40,10 @@ nav a:hover {color:darkgreen;
 
 .l-triangle-top{
     border-color: #d9542b transparent transparent;
-    border-style: solid;
-    border-width: 50px;
-    height: 0px;
-    width: 0px;
+    border-style:solid;
+    border-width:50px;
+    height:0px;
+    width:0px;
     position: relative;
     float: left;
     top: 1px;
@@ -50,10 +52,10 @@ nav a:hover {color:darkgreen;
 
 .l-triangle-bottom {
     border-color: transparent transparent #d9542b;
-    border-style: solid;
-    border-width: 50px;
+    border-style:solid;
+    border-width:50px;
     height:0px;
-    width: 0px;
+    width:0px;
     position: relative;
     float: left;
     top: -40px;
