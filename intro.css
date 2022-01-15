@@ -4,38 +4,6 @@ body {background-color:aliceblue;
 h1 {background-color: aqua;
     border-style:double;}
 
-#preloader6{
-    position: relative;
-    width: 42px;
-    height: 42px;
-    animation: preloader_6 5s infinite linear;}
-
-#preloader6 span{
-    width: 20px;
-    height: 42px;
-    position: relative;
-    background: red;
-    display: block;
-    animation: preloader_6_span la infinite linear;}
-
-#preloader6 span:nth-child(1){
-    background: #222ecc71;}
-
-#preloader6 span:nth-child(2){
-    left: 22px;
-    background: #9b59b6;
-        animation-delay: .2s;}
-
-#preloader6 span:nth-child(3){
-    top: 22px;
-    background: #3498db;
-        animation-delay: .4s;}
-
-@keyframes prelaoder_6_span {
-    0% {transform:scale(1);}
-    50% {transform: scale(0.5);}
-    100% {transform: scale(1);}
-}
 
 #navigation li {list-style: none;
             display: block;
@@ -66,8 +34,6 @@ nav a:hover {color:darkgreen;
             position: relative;
             -moz-box-shadow: 0px 0px 4px rgba(0,0,0,.55);
         box-shadow: 0px 0px 4px rgba(0,0,0,.55);
-        webkit-border-radius: 3px;
-        moz-border-raduis: 3px;
         z-index: 500;
         margin: 3em 0;}
 
@@ -128,7 +94,6 @@ nav a:hover {color:darkgreen;
 
 .css-typing p:nth-child(1) {
     width: 7.3em;
-    -webkit-animation: type 2s steps(40, end);
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;}
 
@@ -152,17 +117,6 @@ nav a:hover {color:darkgreen;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;}
 
-@keyframe type {
-    0% {width: 0;}
-    99.9% {border-right: .15em solid orange;}
-    100% {border: none;}
-}
-
-@-webkit-keyframes type {
-    0% {width: 0;}
-    99.9% {border-right: .15em solid orange;}
-    100% {border: none;}
-}
 
 @keyframes type2 {
     0% {width: 0;}
