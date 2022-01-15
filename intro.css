@@ -167,6 +167,27 @@ nav a:hover {color:darkgreen;
         min-width: 900px;
         max-width: 1280px;}
 
+fieldset {
+    width: 250px;
+    border: 1px solid #d9542b;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;}
+legend {
+    background: #efefef;
+    border: 1px solid #d9542b;
+    border-radius: 10px;
+    padding: 10px 20px;
+    text-align: left;
+    text-transform: uppercase;}
+input#submit:hover{
+    color:#efefef;
+    border: 1px solid #a4a4a4;
+    border-top: 2px solid #b2b2b2;
+    background-color: #d9542b;
+    background: -webkit-gradient(linear, left top left bottom, from (#beeae9), to (#a8cfce));
+    background: -moz-linear-gradient(top, #beeae9, #a8cfce);}
+
 ol {
     border: 5px solid rgb(255, 0, 0);
     padding-top: 20px;
