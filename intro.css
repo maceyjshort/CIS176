@@ -1,7 +1,7 @@
 body {background-color:aliceblue;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', sans-serif;}
 
-h1 {background-color: aqua;
+h1 {
     border-style:double;}
 
 
@@ -168,6 +168,12 @@ nav a:hover {color:darkgreen;
         max-width: 1280px;}
 
 img {border: 5px solid #d9542b;}
+img.align-left {
+  float: left;
+  margin-right: 10px;}
+img.align-right{
+  float: right;
+  margin-left: 10px;}
 
 
 /* sliding show for pictures */
