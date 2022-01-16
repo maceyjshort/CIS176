@@ -167,6 +167,9 @@ nav a:hover {color:darkgreen;
         min-width: 900px;
         max-width: 1280px;}
 
+img {border: 5px solid #d9542b;}
+
+
 fieldset {
     width: 250px;
     border: 1px solid #d9542b;
@@ -189,7 +192,7 @@ input#submit:hover{
     background: -moz-linear-gradient(top, #beeae9, #a8cfce);}
 
 ol {
-    border: 5px solid rgb(255, 0, 0);
+    border: 20px double rgb(255, 0, 0);
     padding-top: 20px;
     padding-left: 50px;
     padding-bottom: 20px;
